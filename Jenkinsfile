@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Step-2') {
             steps {
-                echo "This is Step 2"
+               build 'Deploy_job'
             }
         }
     }
